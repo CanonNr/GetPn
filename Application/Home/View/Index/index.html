@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>电话号码定向抓取</title>
+	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+	<style>
+		.box{
+			float: left;
+			margin-left: 20px
+		}
+	</style>
+</head>
+<body>
+<font color="orange"><h1>电话号码定向抓取<font size="3" >&nbsp;cccccccccc.top</font></h1></font>
+	<div style="border:2px solid #eee;padding: 20px;width: 200px;height: 350px" class="box">
+		<h3>线路1:</h3>
+		<form method="GET" action="{:U('index/linea')}">
+			<h4>位置:</h4>
+			<select name="sheng" class="sheng"> 
+				<option value="0">请选择</option> 
+				<foreach name="ressheng" item="v">
+					
+						<option value="{$v['region_id']}">{$v['region_name']}</option> 
+					
+				</foreach>
+			</select>
+
+			<br>	
+
+			<select name="shi" class="shi">		
+				<option value="0">请选择</option> 
+			</select>
+
+			<h4>行业:</h4>
+			<select name="type" id="type"> 
+				<option value="0">请选择</option> 
+				<foreach name="restype" item="v">
+					
+						<option value="{$v['type_newtype']}">{$v['type_name']}</option> 
+					
+				</foreach>
+			</select>
+			<br>
+			<select name="hy" id="hy">		
+				<option value="0">请选择</option> 
+			</select>
+			<br><br>
+			<input type="hidden" name="page"  value="1">
+			<input type="hidden" name="line"  value="1">
+			<input type="submit" value="开始查询">
+		</form>
+	</div>
+
+	<div style="border:2px solid #eee;padding: 20px;width: 200px;height: 350px" class="box">
+		<h3>线路2:</h3>
+		<form method="GET" action="{:U('index/lineb')}">
+			<h4>位置:</h4>
+			<select name="sheng" class="sheng"> 
+				<option value="0">请选择</option> 
+				<foreach name="ressheng" item="v">
+					
+						<option value="{$v['region_id']}">{$v['region_name']}</option> 
+					
+				</foreach>
+			</select>
+
+			<br>	
+
+			<select name="shi" class="shi">		
+				<option value="0">请选择</option> 
+			</select>
+
+			<h4>关键词:</h4>
+			<input type="text" name="keyword">
+			<br><br>
+			<input type="hidden" name="page"  value="1">
+			<input type="hidden" name="line"  value="2">
+			<input type="submit" value="开始查询">
+		</form>
+	</div>
+
+	<div style="border:2px solid #eee;padding: 20px;width: 200px;height: 350px" class="box">
+		<h3>线路3:</h3>
+		<form method="GET" action="{:U('index/linec')}">
+			<h4>位置:</h4>
+			<select name="sheng" class="sheng"> 
+				<option value="0">请选择</option> 
+				<foreach name="ressheng" item="v">
+					
+						<option value="{$v['region_id']}">{$v['region_name']}</option> 
+					
+				</foreach>
+			</select>
+
+			<br>	
+
+			<select name="shi" class="shi">		
+				<option value="0">请选择</option> 
+			</select>
+
+			<h4>关键词:</h4>
+			<input type="text" name="keyword">
+			<br><br>
+			<input type="hidden" name="page"  value="1">
+			<input type="hidden" name="line"  value="2">
+			<input type="submit" value="开始查询">
+		</form>
+	</div>
+</body>
+</html>
+<script>
+	$(".sheng").change(function(){
+		 
+		var a=$(this).children('option:selected').val();
+		$(".shi").empty();
+		$.ajax({
+		    url:"{:U('index/meme')}",
+		    type:'GET', //GET
+		    async:true,    //或false,是否异步
+		    data:{
+		        id:a
+		    },
+		    success:function(data,textStatus,jqXHR){
+		    	data = JSON.parse(data);
+		        console.log(data);
+		        // alert(data.length);
+		        for (var i = 0; i < data.length; i++) {
+		            $(".shi").append("<option value='"+data[i]['region_name']+"'>"+data[i]['region_name']+"</option>")
+		        }
+		    }
+		})
+	})
+
+	$("#type").change(function(){
+		$("#hy").empty();
+		$("#hy").append("<option value='0'>全部</option>");
+		var a=$(this).children('option:selected').val();
+		console.log(a);
+		$.ajax({
+		    url:"{:U('index/mama')}",
+		    type:'GET', //GET
+		    async:true,    //或false,是否异步
+		    data:{
+		        id:a
+		    },
+		    success:function(data,textStatus,jqXHR){
+		    	data = JSON.parse(data);
+		        console.log(data);
+		        // alert(data.length);
+		        for (var i = 0; i < data.length; i++) {
+		            $("#hy").append("<option value='"+data[i]['type_newtype']+"'>"+data[i]['type_name']+"</option>")
+		        }
+		    }
+		})
+	})
+</script>

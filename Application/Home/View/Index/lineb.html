@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>梨享查</title>
+	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+</head>
+<body>
+
+	<table border="1">
+		<tr>
+			<td width="300px">名称</td>
+			<!-- <td width="300px">具体行业信息</td> -->
+			<td width="300px">位置</td>
+			<!-- <td width="300px">经纬度坐标</td> -->
+			<td width="300px">联系电话</td>
+		</tr>
+		<foreach name="arr" item="v">
+			<tr>
+				<td width="300px">{$v['name']}</td>
+				<!-- <td width="300px">{$v['type']}</td> -->
+				<td width="300px">{$v['address']}</td>
+				<!-- <td width="300px">{$v['location']}</td> -->
+				<td width="300px">{$v['telephone']}</td>
+			</tr>
+		</foreach>
+	</table>
+	<a href="{:U('index/index')}">返回首页</a><br>
+	<for start="1" end="$count">
+		<a href="" onclick="return false" class="num" name="{$i}">{$i}</a>&nbsp;&nbsp;
+	</for>
+</body>
+</html>
+
+<script>
+$(".num").click(function(){
+	//alert();
+	console.log($(this));
+	var test = window.location.href;
+	window.location.href=test+"&page="+$(this)[0]['name'];
+	//alert(test);
+})
+</script>

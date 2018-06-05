@@ -1,0 +1,1556 @@
+[ 2017-12-13T13:19:44+08:00 ] 182.200.222.87 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:19:47+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 5 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:19:48+08:00 ] 182.200.222.87 /index.php/Home/index/mama.html?id=170000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 170000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:19:51+08:00 ] 182.200.222.87 /index.php/Home/index/linea.html?sheng=5&shi=%E5%A4%AA%E5%8E%9F%E5%B8%82&type=170000&hy=170403&page=1&line=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\1622f40bb1bbcde1a5cc539f651003a1.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:19:54+08:00 ] 101.226.66.191 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:19:58+08:00 ] 101.226.66.181 /index.php/Home/index/mama.html?id=170000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 170000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:19:59+08:00 ] 182.200.222.87 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:01+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:02+08:00 ] 101.226.33.227 /index.php/Home/index/linea.html?sheng=5&shi=??��a??????&type=170000&hy=170403&page=1&line=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-12-13T13:20:03+08:00 ] 182.200.222.87 /index.php/Home/index/mama.html?id=170000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 170000 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:06+08:00 ] 182.200.222.87 /index.php/Home/index/linea.html?sheng=2&shi=%E5%8C%97%E4%BA%AC%E5%B8%82&type=170000&hy=170401&page=1&line=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\1622f40bb1bbcde1a5cc539f651003a1.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:09+08:00 ] 101.226.33.200 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:10+08:00 ] 101.226.33.227 /index.php/Home/index/meme.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:16+08:00 ] 101.226.66.181 /index.php/Home/index/linea.html?sheng=2&shi=????o????&type=170000&hy=170401&page=1&line=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:22+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 5 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:27+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:33+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%BE%8E%E5%8F%91&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:36+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%BE%8E%E5%8F%91&page=1&line=2&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:43+08:00 ] 182.200.222.87 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:45+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:46+08:00 ] 101.226.33.208 /index.php/Home/index/lineb.html?sheng=7&shi=?2?��??3???&keyword=??????&page=1&line=2&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-12-13T13:20:46+08:00 ] 101.226.33.216 /index.php/Home/index/lineb.html?sheng=7&shi=?2?��??3???&keyword=??????&page=1&line=2&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:49+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E9%98%BF%E4%B8%89&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:53+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E9%98%BF%E4%B8%89&page=1&line=2&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:20:59+08:00 ] 182.200.222.87 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:01+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:02+08:00 ] 101.226.33.221 /index.php/Home/index/lineb.html?sheng=7&shi=?2?��??3???&keyword=��??????&page=1&line=2&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Undefined index: address E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 21 行.
+NOTIC: [8] Undefined index: location E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:08+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%8B%BC%E7%9A%84%E8%AF%B1%E6%83%91&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:09+08:00 ] 182.200.222.87 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:12+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:20+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%8B%BC%E7%9A%84%E8%AF%B1%E6%83%91&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:26+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 6 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:27+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:36+08:00 ] 101.226.33.221 /index.php/Home/index/meme.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 6 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:39+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E5%8C%97%E8%BD%AF&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:40+08:00 ] 182.200.222.87 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `type` WHERE ( type_pid = 0 )  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:43+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:47+08:00 ] 182.200.222.87 /index.php/Home/index/lineb.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E8%82%AF%E5%BE%B7%E5%9F%BA&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: telephone E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 23 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+NOTIC: [8] Undefined index: type E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 20 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\757afe6d7eebdc55bf3948356ced3700.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:49+08:00 ] 101.226.33.240 /index.php/Home/index/lineb.html?sheng=7&shi=?2?��??3???&keyword=???����???&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:51+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 3 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:53+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:57+08:00 ] 101.226.33.201 /index.php/Home/index/lineb.html?sheng=7&shi=?2?��??3???&keyword=����??????��??o&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:21:58+08:00 ] 182.200.222.87 /index.php/Home/index/linec.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%8B%BC%E7%9A%84%E8%AF%B1%E6%83%91&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:01+08:00 ] 101.226.33.238 /index.php/Home/index/meme.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 3 )  [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:08+08:00 ] 101.226.33.225 /index.php/Home/index/linec.html?sheng=7&shi=?2?��??3???&keyword=??????����???????&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:08+08:00 ] 182.200.222.87 /index.php/Home/index/linec.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%8B%BC%E7%9A%84%E8%AF%B1%E6%83%91&page=1&line=2&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:13+08:00 ] 182.200.222.87 /index.php/Home/index/linec.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%8B%BC%E7%9A%84%E8%AF%B1%E6%83%91&page=1&line=2&page=2&page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:19+08:00 ] 101.226.33.216 /index.php/Home/index/linec.html?sheng=7&shi=?2?��??3???&keyword=??????����???????&page=1&line=2&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:23+08:00 ] 182.200.222.87 /index.php/Home/index/linec.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E7%8B%BC%E7%9A%84%E8%AF%B1%E6%83%91&page=1&line=2&page=2&page=3&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:24+08:00 ] 101.226.33.202 /index.php/Home/index/linec.html?sheng=7&shi=?2?��??3???&keyword=??????����???????&page=1&line=2&page=2&page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:33+08:00 ] 61.151.207.252 /index.php/Home/index/linec.html?sheng=7&shi=?2?��??3???&keyword=??????����???????&page=1&line=2&page=2&page=3&page=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:48+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:49+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:22:53+08:00 ] 182.200.222.87 /index.php/Home/index/linec.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=1905&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:23:03+08:00 ] 101.226.33.220 /index.php/Home/index/linec.html?sheng=7&shi=?2?��??3???&keyword=1905&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:23:06+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:23:07+08:00 ] 182.200.222.87 /index.php/Home/index/meme.html?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `region` WHERE ( PARENT_ID = 7 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-13T13:23:13+08:00 ] 182.200.222.87 /index.php/Home/index/linec.html?sheng=7&shi=%E6%B2%88%E9%98%B3%E5%B8%82&keyword=%E8%BE%BD%E5%AE%81%E4%B9%90%E4%BA%8E%E5%85%B1%E4%BA%AB&page=1&line=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wwwroot\zt\web\Application\Runtime\Cache\Home\56fa544bcf4fe8456920eeaf867cfa67.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
